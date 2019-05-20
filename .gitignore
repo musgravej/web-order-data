@@ -5,6 +5,7 @@
 .idea/
 *.sublime-project
 *.sublime-workspace
+!notes.txt
 
 __pycache__/
 *.py[cod]

@@ -1,0 +1,15 @@
+WM processing
+	delete first 6 lines, rename
+
+	SKUs_*.xlsx --> WMProducts-Filename.xlsx
+	Pricing_*.xlsx --> WMSupplier.xlsx
+	PortalUsers_*.xlsx --> PortalUsers_Current.xlsx
+	PortalProducts_*.xlsx --> WMProducts-Current.xlsx
+
+FB processing
+	delete first 6 lines, rename
+
+	SKUs_*.xlsx --> FBProducts-SKUs.xlsx
+	Pricing_*.xlsx --> FBProducts-Supplier.xlsx
+	Postage_*.xlsx --> FBPostage.xlsx
+	PortalProducts_*.xlsx --> FBProducts-Current.xlsx
