@@ -3,7 +3,7 @@ WM processing
 
 	SKUs_*.xlsx --> WMProducts-Filename.xlsx
 	Pricing_*.xlsx --> WMSupplier.xlsx
-	PortalUsers_*.xlsx --> PortalUsers_Current.xlsx
+	PortalUsers_*.xlsx --> PortalUsers-Current.xlsx
 	PortalProducts_*.xlsx --> WMProducts-Current.xlsx
 
 FB processing

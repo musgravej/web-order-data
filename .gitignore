@@ -6,6 +6,8 @@
 *.sublime-project
 *.sublime-workspace
 !notes.txt
+FB/
+WM/
 
 __pycache__/
 *.py[cod]
