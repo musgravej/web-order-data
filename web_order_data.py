@@ -131,15 +131,19 @@ def process_wm(process_path):
     wm_files = os.listdir(process_path)
     for f in wm_files:
         if pricing.match(f):
+            print("WM Pricing")
             process.wm_pricing(os.path.join(process_path, f))
 
         if users.match(f):
+            print("WM Portal Users")
             process.wm_users(os.path.join(process_path, f))
 
         if sku.match(f):
+            print("WM SKUs")
             process.wm_sku(os.path.join(process_path, f))
 
         if products.match(f):
+            print("WM Portal Products")
             process.wm_portal_products(os.path.join(process_path, f))
 
 
@@ -151,18 +155,22 @@ def process_fb(process_path):
 
     process = Process()
 
-    wm_files = os.listdir(process_path)
-    for f in wm_files:
+    fb_files = os.listdir(process_path)
+    for f in fb_files:
         if pricing.match(f):
+            print("FB Pricing")
             process.fb_pricing(os.path.join(process_path, f))
 
         if postage.match(f):
+            print("FB Postage")
             process.fb_postage(os.path.join(process_path, f))
 
         if sku.match(f):
+            print("FB SKUs")
             process.fb_sku(os.path.join(process_path, f))
 
         if products.match(f):
+            print("FB Protal Products")
             process.fb_products(os.path.join(process_path, f))
 
 
